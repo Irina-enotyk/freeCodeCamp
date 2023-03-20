@@ -1,0 +1,7 @@
+function Dog(nameDog, colorDog) {
+ this.name = nameDog;
+ this.color = colorDog;
+ this.numLegs = 4;
+}
+
+let terrier = new Dog('terrierName', 'terrierColor');
